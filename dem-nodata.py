@@ -13,8 +13,9 @@ import os
 from glob import glob
 import rasterio
 
+
 def log(tile):
-    with open('report.txt','a') as log_file:
+    with open('report.txt', 'a') as log_file:
         log_file.write(tile + '\n')
 
 # script will loop through filenames with these extensions
